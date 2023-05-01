@@ -1,4 +1,3 @@
-#### Contents
 [toc]
 
 # Gabor-based lipreading systems
@@ -23,14 +22,14 @@ All package versions are recorded in the "Packages.txt" file.
 
   1). Main.py. 
   ```python 
-  #Change path. Please modify the path in the code to your local path.
-  predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat") # path of "shape_predictor_68_face_landmarks.dat"
-  VideoPath ='D:/Handcrafted/*.mpg'  # video path 
-  Frame = 'D:/Handcrafted/Picture/'# path to store frames
-  MouthPath = 'D:/Handcrafted/mouth/'  # path to store mouth region
-  GaborPath = 'D:/Handcrafted/Gabor/'#path to store Gabor features
-  SheetPath = 'D:/Handcrafted/Sheet/' # path to store lip features
-  FeaturesPath = 'D:/Handcrafted/Features/'  # path to store lip features
+       #Change path. Please modify the path in the code to your local path.
+  12   predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat") # path of "shape_predictor_68_face_landmarks.dat"
+  13   VideoPath ='D:/Handcrafted/*.mpg'  # video path 
+  14   Frame = 'D:/Handcrafted/Picture/'# path to store frames
+  15   MouthPath = 'D:/Handcrafted/mouth/'  # path to store mouth region
+  16   GaborPath = 'D:/Handcrafted/Gabor/'#path to store Gabor features
+  17   SheetPath = 'D:/Handcrafted/Sheet/' # path to store lip features
+  18   FeaturesPath = 'D:/Handcrafted/Features/'  # path to store lip features
   ```
   2). Frame.py. Cut frames from one video. (Frames are stored in 'Picture' folder)
 
@@ -55,37 +54,37 @@ To run the system, execute "Main.py".
 
   4). TPE.py. Find the most suitable Gabor parameters and iterating them for all frames. 
   ```python
-      #You can change the path of test Gabor path to your local path.
-  76  Gabor_Path = './TPEH.jpg'
+         #You can change the path of test Gabor path to your local path.
+  76     Gabor_Path = './TPEH.jpg'
   ```
 
   ```python
-      #You can change the "Search space", 'iteration times' and 'best loss' according to your requirement.
-      #Search range of Gabor parameters
-      search_spaceH = {
-          "Hkernel_size": hyperopt.hp.quniform('Hkernel_size', 5, 20, 1),
-          "Hwavelength": hyperopt.hp.quniform('Hwavelength', 5, 20, 1),
-          "Hsig": hyperopt.hp.quniform('Hsig', 3, 7, 1),
-          "Hgamma": hyperopt.hp.quniform('Hgamma', 0.3, 0.7,0.1)
-      }
+         #You can change the "Search space", 'iteration times' and 'best loss' according to your requirement.
+         #Search range of Gabor parameters
+  166        search_spaceH = {
+  167        "Hkernel_size": hyperopt.hp.quniform('Hkernel_size', 5, 20, 1),
+  168        "Hwavelength": hyperopt.hp.quniform('Hwavelength', 5, 20, 1),
+  169        "Hsig": hyperopt.hp.quniform('Hsig', 3, 7, 1),
+  170       "Hgamma": hyperopt.hp.quniform('Hgamma', 0.3, 0.7,0.1)
+  171    }
 
-      while True:
-          try:
-              trials = hyperopt.Trials()
-              Hbest = hyperopt.fmin(
-                          fn=HGabor,
-                          space=search_spaceH,
-                          algo=hyperopt.tpe.suggest,
-                          max_evals=150,             #iteration times
-                          trials=trials
-                      )
+  175    while True:
+  176        try:
+  177            trials = hyperopt.Trials()
+  178            Hbest = hyperopt.fmin(
+  179                        fn=HGabor,
+  180                        space=search_spaceH,
+  181                        algo=hyperopt.tpe.suggest,
+  182                        max_evals=150,             #iteration times
+  183                        trials=trials
+  184                    )
 
 
-              trial_loss = np.asarray(trials.losses(), dtype=float)
-              best_loss = min(trial_loss)
-              print('best loss: ', best_loss) 
-              if best_loss>10:                           #best loss
-                  continue
+  187            trial_loss = np.asarray(trials.losses(), dtype=float)
+  188            best_loss = min(trial_loss)
+  189            print('best loss: ', best_loss) 
+  190            if best_loss>10:                           #best loss
+  191                continue
   ```
   5). Gabor.py uses best Gabor parameters to generate gabor features. (Gabor features are stored in 'Gabor' folder)
 
