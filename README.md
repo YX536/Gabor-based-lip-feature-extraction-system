@@ -44,7 +44,7 @@ To run the system, execute "Main.py".
 ##### 2. Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition
 
 - Optimized Gabor-based lip feature extraction system (code is in "Optimized" folder)
-![Optimized Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lip-feature-extraction-system/blob/main/Optimized.png)
+![Optimized Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/optimization.png)
 ------------
 1). Main.py. 
 
@@ -133,4 +133,4 @@ If you find this code useful in your research, please consider to cite the follo
 }
 ```
 #### Contact
-[Yan Xu](yan.xu[at]xjtlu.edu.cn)
+yan.xu[at]xjtlu.edu.cn
