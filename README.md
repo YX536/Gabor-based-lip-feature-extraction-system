@@ -25,7 +25,7 @@ All package versions are recorded in the "Packages.txt" file.
 
 ### Gabor-Based Lip feature extraction system
 #### 1. Gabor Based Lipreading with a New Audiovisual Mandarin Corpus
-Authors: Yan Xu, Yuexuan Li, Andrew Abel
+Authors: [Yan Xu](https://scholar.google.com/citations?user=2ICpMSsAAAAJ&hl=zh-CN&oi=sra), Yuexuan Li, [Andrew Abel](https://pureportal.strath.ac.uk/en/persons/andrew-abel)
 - Handcrafted Gabor-based lip feature extraction system
 ![Handcrafted Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Handcrafted.png)
 
@@ -50,8 +50,19 @@ Authors: Yan Xu, Yuexuan Li, Andrew Abel
 
 To run the system, execute "Main.py".
 
+##### Audiovisual Mandarin Chinese (AVMC) dataset:
+This corpus is a labelled video corpus of distinct Chinese characters. 162 Chinese characters were collected from the general specification table published by the Chinese ministry of education. These characters are chosen with a reasonable distribution of initials, finals and tones. 10 native Mandarin Chinese volunteers were used, 5 of them are females, and 5 are males. Most of them are aged 22 and do not have a heavy accent. This corpus was recorded during the course of this research project, using the professional recording studio facilities at Xi'an Jiaotong-Liverpool University. The data capture devices are a Cannon camera 5D4 and a Sony microphone. The frame rate is set as 50. 
+
+The data acquisition procedure for each volunteer was: (1) sign participant information and consent form; (2) read caption list; (3) practice recording for 1–2 min; (4) record for all captions and repeat 3 times. During recording, volunteers were asked to pause between each word, and if they made mistakes, paused and repeated. Mistakes not identified during recording were identified later in the editing process. This produced 30 videos, each being a volunteer reciting all 162 characters in a quiet environment, with a plain blue screen as background. To ensure they were looking directly at the screen, a teleprompter was used. As some Chinese characters have the same pronunciation, there are in total 158 types of pronunciations including both correct and wrong utterances. The video was recorded at a resolution of 1920 $\times$ 1080, at 50 fps, and the audio was recorded at 48 kHz. The processed videos are stored in the format of “mp4”. The example video is provided in ['ba1.mpg'](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/ba1.mpg).
+
+Please contact us if you are intersted in it.
+yan.xu@xjtlu.edu.cn
+andrew.abel@strath.ac.uk
+
+![ChineseDataset](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/AVMC.png)
+
 #### 2. Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition
-Authors: Yan Xu, Hongce Wang, Zhongping Zhong, Yuexuan Li, Andrew Abel 
+Authors: [Yan Xu](https://scholar.google.com/citations?user=2ICpMSsAAAAJ&hl=zh-CN&oi=sra), Hongce Wang, Zhongping Zhong, Yuexuan Li, [Andrew Abel](https://pureportal.strath.ac.uk/en/persons/andrew-abel) 
 - Optimized Gabor-based lip feature extraction system (code is in "Optimized" folder)
 ![Optimized Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/optimization.png)
 
@@ -102,7 +113,7 @@ Authors: Yan Xu, Hongce Wang, Zhongping Zhong, Yuexuan Li, Andrew Abel
 To run the system, execute "Main.py".
 
 #### 3. 'FirstFrame' Gabor-based lip feature extraction system 
-Authors: Yan Xu, Andrew Abel
+Authors: [Yan Xu](https://scholar.google.com/citations?user=2ICpMSsAAAAJ&hl=zh-CN&oi=sra), [Andrew Abel](https://pureportal.strath.ac.uk/en/persons/andrew-abel)
 !['FirstFrame' Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/FirstFrame.png)
 
   1). Main.py. 
