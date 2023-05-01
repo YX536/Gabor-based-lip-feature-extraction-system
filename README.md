@@ -55,11 +55,11 @@ This corpus is a labelled video corpus of distinct Chinese characters. 162 Chine
 
 The data acquisition procedure for each volunteer was: (1) sign participant information and consent form; (2) read caption list; (3) practice recording for 1–2 min; (4) record for all captions and repeat 3 times. During recording, volunteers were asked to pause between each word, and if they made mistakes, paused and repeated. Mistakes not identified during recording were identified later in the editing process. This produced 30 videos, each being a volunteer reciting all 162 characters in a quiet environment, with a plain blue screen as background. To ensure they were looking directly at the screen, a teleprompter was used. As some Chinese characters have the same pronunciation, there are in total 158 types of pronunciations including both correct and wrong utterances. The video was recorded at a resolution of 1920 $\times$ 1080, at 50 fps, and the audio was recorded at 48 kHz. The processed videos are stored in the format of “mp4”. The example video is provided in ['ba1.mpg'](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/ba1.mpg).
 
-Please contact us if you are intersted in it.
+Please contact us if you are intersted in it. 
 yan.xu@xjtlu.edu.cn
 andrew.abel@strath.ac.uk
 
-![ChineseDataset](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/AVMC.png)
+![ChineseDataset](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/AVMC.jpg)
 
 #### 2. Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition
 Authors: [Yan Xu](https://scholar.google.com/citations?user=2ICpMSsAAAAJ&hl=zh-CN&oi=sra), Hongce Wang, Zhongping Zhong, Yuexuan Li, [Andrew Abel](https://pureportal.strath.ac.uk/en/persons/andrew-abel) 
