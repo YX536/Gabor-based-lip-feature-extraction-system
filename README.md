@@ -141,7 +141,7 @@ If you find this code useful in your research, please consider to cite the follo
 }
 ```
 ### License
-The source code for the site is licensed under the MIT license, which you can find in the [LICENSE.txt](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/LICENSE) file.
+The source code for the site is licensed under the MIT license, which you can find in the [LICENSE](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/LICENSE) file.
 
 ### Contact
 yan.xu@xjtlu.edu.cn
