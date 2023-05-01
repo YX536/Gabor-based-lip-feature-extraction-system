@@ -73,7 +73,7 @@ def HGabor(input):
         # cv2.imshow("destH",destH)
         # cv2.waitKey(0)
         # cv2.destroyAllWindows()
-        Gabor_Path = 'D:/FE/TPEH.jpg'
+        Gabor_Path = './TPEH.jpg'
         cv2.imwrite(Gabor_Path, np.power(destH, 2))
 
         # fig, ax = plt.subplots(figsize=(10, 6))
@@ -162,7 +162,7 @@ def TPE(picturepathF,mouth_centroid_xF, mouth_centroid_yF,ROI_mouthF,widthGF,hei
     # print(mouth_centroid_x,mouth_centroid_y,widthG)
 
 
-
+    #Search range of Gabor parameters
     search_spaceH = {
         "Hkernel_size": hyperopt.hp.quniform('Hkernel_size', 5, 20, 1),
         "Hwavelength": hyperopt.hp.quniform('Hwavelength', 5, 20, 1),
@@ -179,7 +179,7 @@ def TPE(picturepathF,mouth_centroid_xF, mouth_centroid_yF,ROI_mouthF,widthGF,hei
                         fn=HGabor,
                         space=search_spaceH,
                         algo=hyperopt.tpe.suggest,
-                        max_evals=150,
+                        max_evals=150,  #iteration times 
                         trials=trials
                     )
 
@@ -187,7 +187,7 @@ def TPE(picturepathF,mouth_centroid_xF, mouth_centroid_yF,ROI_mouthF,widthGF,hei
             trial_loss = np.asarray(trials.losses(), dtype=float)
             best_loss = min(trial_loss)
             print('best loss: ', best_loss)
-            if best_loss>10:
+            if best_loss>10:     #Best loss       
                 continue
         except Exception as e:
 
