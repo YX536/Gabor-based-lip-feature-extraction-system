@@ -3,12 +3,12 @@ This repository provides the code for lip feature extraction systems described i
 
 #### Gabor features
 <div style="display:flex;justify-content:space-between;">
-    <img src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/bbae1a.gif" width="200" />
-    <img src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Area.gif" width="200" />
+    <img src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/bbae1a.gif" width="300" />
+    <img src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Area.gif" width="300" />
 </div>
 
 <div style="display:flex;justify-content:space-between;">
-    <img src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Area.png" width="200" />
+    <img src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Area.png" width="300" />
 </div>
 
 #### Environment:
