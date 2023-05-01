@@ -9,7 +9,7 @@ This repository provides the code for lip feature extraction systems described i
     <source src="https://github.com/YX536/Gabor-based-lipreading-system/raw/main/Area.mp4" type="video/mp4">
 </video>
 
-![The speaker's lip area changes when saying 'bin blue at e one again'.](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Area.png #pic_center =128x128)
+![The speaker's lip area changes when saying 'bin blue at e one again'.](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Area.png#pic_center =128x128)
 #### Environment:
 All package versions are recorded in the "Packages.txt" file.
 
