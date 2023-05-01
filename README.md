@@ -37,14 +37,14 @@ FeaturesPath = 'D:/Handcrafted/Features/'  # path to store lip features
 4). Gabor.py .Manually adjust Gabor parameters and generate Gabor features. (Gabor features are stored in 'Gabor' folder)
 
 5). Features.py.  Obtian 7 lip features: Width, height, area, intensity, orientation, the x-value of central point and the y value of central point. (Lip features are instored in 'Feature' folder and 'Sheet' folder)
-********************************************************************************************************************
+------------
 To run the system, execute "Main.py".
 
 
 ##### 2. Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition
 - Optimized Gabor-based lip feature extraction system (code is in "Optimized" folder)
 ![Optimized Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lip-feature-extraction-system/blob/main/Optimized.png)
-******************************************************************************************************************
+------------
 1). Main.py. 
 
 2). Frame.py. Cut frames from one video. (Frames are stored in 'Picture' folder)
@@ -88,7 +88,7 @@ To run the system, execute "Main.py".
 5). Gabor.py uses best Gabor parameters to generate gabor features. (Gabor features are stored in 'Gabor' folder)
 
 6). Features.py.  Obtian 7 lip features: Width, height, area, intensity, orientation, the x-value of central point and the y value of central point. (Lip features are instored in 'Feature' folder and 'Sheet' folder)
-********************************************************************************************************************
+------------
 To run the system, execute "Main.py".
 
 First
@@ -106,7 +106,7 @@ First
 5). Gabor.py uses best Gabor parameters to generate gabor features. (Gabor features are stored in 'Gabor' folder)
 
 6). Features.py.  Obtian 7 lip features: Width, height, area, intensity, orientation, the x-value of central point and the y value of central point. (Lip features are instored in 'Feature' folder and 'Sheet' folder)
-********************************************************************************************************************
+------------
 To run the system, execute "Main.py".
 
 ####Citation
