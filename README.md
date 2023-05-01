@@ -1,7 +1,7 @@
-#Gabor-based lipreading systems
+# Gabor-based lipreading systems
 This repository provides the code for lip feature extraction systems described in [Gabor Based Lipreading with a New Audiovisual Mandarin Corpus](https://link.springer.com/chapter/10.1007/978-3-030-39431-8_16) and [Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://eurasip.org/Proceedings/Eusipco/Eusipco2022/pdfs/0000603.pdf). We also offer an updated version of the lip feature extraction system:  ['FirstFrame' Gabor-based lip feature extraction system](#First).
 
-####Gabor features
+#### Gabor features
 <div>
   <video src="https://github.com/YX536/Gabor-based-lip-feature-extraction-system/blob/main/bbae1a.mpg" width="45%" controls></video>
   <video src="https://github.com/YX536/Gabor-based-lip-feature-extraction-system/blob/main/Area.mp4" width="45%" controls></video>
@@ -11,10 +11,10 @@ This repository provides the code for lip feature extraction systems described i
 
 [TOC]
 
-####Environment:
+#### Environment:
 All package versions are recorded in the "Packages.txt" file.
 
-####Gabor-Based Lip feature extraction system
+#### Gabor-Based Lip feature extraction system
 ##### 1. Gabor Based Lipreading with a New Audiovisual Mandarin Corpus
 - Handcrafted Gabor-based lip feature extraction system
 ![Handcrafted Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lip-feature-extraction-system/blob/main/Handcrafted.png)
@@ -37,11 +37,12 @@ FeaturesPath = 'D:/Handcrafted/Features/'  # path to store lip features
 4). Gabor.py .Manually adjust Gabor parameters and generate Gabor features. (Gabor features are stored in 'Gabor' folder)
 
 5). Features.py.  Obtian 7 lip features: Width, height, area, intensity, orientation, the x-value of central point and the y value of central point. (Lip features are instored in 'Feature' folder and 'Sheet' folder)
+
 ------------
 To run the system, execute "Main.py".
 
-
 ##### 2. Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition
+
 - Optimized Gabor-based lip feature extraction system (code is in "Optimized" folder)
 ![Optimized Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lip-feature-extraction-system/blob/main/Optimized.png)
 ------------
@@ -88,6 +89,7 @@ To run the system, execute "Main.py".
 5). Gabor.py uses best Gabor parameters to generate gabor features. (Gabor features are stored in 'Gabor' folder)
 
 6). Features.py.  Obtian 7 lip features: Width, height, area, intensity, orientation, the x-value of central point and the y value of central point. (Lip features are instored in 'Feature' folder and 'Sheet' folder)
+
 ------------
 To run the system, execute "Main.py".
 
@@ -106,10 +108,11 @@ First
 5). Gabor.py uses best Gabor parameters to generate gabor features. (Gabor features are stored in 'Gabor' folder)
 
 6). Features.py.  Obtian 7 lip features: Width, height, area, intensity, orientation, the x-value of central point and the y value of central point. (Lip features are instored in 'Feature' folder and 'Sheet' folder)
+
 ------------
 To run the system, execute "Main.py".
 
-####Citation
+#### Citation
 If you find this code useful in your research, please consider to cite the following papers:
 ```
 @inproceedings{xu2020gabor,
@@ -130,5 +133,5 @@ If you find this code useful in your research, please consider to cite the follo
   organization={IEEE}
 }
 ```
-####Contact
+#### Contact
 [Yan Xu](yan.xu[at]xjtlu.edu.cn)
