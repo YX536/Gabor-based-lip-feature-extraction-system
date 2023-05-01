@@ -25,7 +25,7 @@ def rect1(detector,predictor,i,shotname,picturepath,MouthPath,GaborPath,SheetPat
     #face
  for k, d in enumerate(dets):
      shape = predictor(img, d)
-
+     # Choose mouth region according to four points
      t1 = shape.part(48).x - 10
      t2 = shape.part(54).x + 10
      t3 = shape.part(50).y - 5
