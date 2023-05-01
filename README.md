@@ -1,10 +1,7 @@
-[toc]
-
 # Gabor-based lipreading systems
 This repository provides the code for lip feature extraction systems described in [Gabor Based Lipreading with a New Audiovisual Mandarin Corpus](https://link.springer.com/chapter/10.1007/978-3-030-39431-8_16) and [Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition](https://eurasip.org/Proceedings/Eusipco/Eusipco2022/pdfs/0000603.pdf). We also offer an updated version of the lip feature extraction system: 'FirstFrame' Gabor-based lip feature extraction system.
 
 #### Gabor features
-
 <video width="45%" controls>
     <source src="https://github.com/YX536/Gabor-based-lipreading-system/raw/main/bbae1a.mpg" type="video/mp4">
 </video>
@@ -12,6 +9,7 @@ This repository provides the code for lip feature extraction systems described i
     <source src="https://github.com/YX536/Gabor-based-lipreading-system/raw/main/Area.mp4" type="video/mp4">
 </video>
 
+![The speaker's lip area changes when saying 'bin blue at e one again'.](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Area.png)
 #### Environment:
 All package versions are recorded in the "Packages.txt" file.
 
