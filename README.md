@@ -1,7 +1,10 @@
+### Content
+[toc]
+
 # Gabor-based lipreading systems
 This repository provides the code for lip feature extraction systems described in [Gabor Based Lipreading with a New Audiovisual Mandarin Corpus](https://link.springer.com/chapter/10.1007/978-3-030-39431-8_16) and [Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition](https://eurasip.org/Proceedings/Eusipco/Eusipco2022/pdfs/0000603.pdf). We also offer an updated version of the lip feature extraction system: 'FirstFrame' Gabor-based lip feature extraction system.
 
-#### Gabor features
+### Gabor features
 <div style="display:flex;justify-content:space-between;">
     <img src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/bbae1a.gif" width="300" />
     <img src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Area.gif" width="300" />
@@ -11,11 +14,11 @@ This repository provides the code for lip feature extraction systems described i
     <img src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Area.png" width="300" />
 </div>
 
-#### Environment:
+### Environment:
 All package versions are recorded in the "Packages.txt" file.
 
-#### Gabor-Based Lip feature extraction system
-##### 1. Gabor Based Lipreading with a New Audiovisual Mandarin Corpus
+### Gabor-Based Lip feature extraction system
+#### 1. Gabor Based Lipreading with a New Audiovisual Mandarin Corpus
 - Handcrafted Gabor-based lip feature extraction system
 ![Handcrafted Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Handcrafted.png)
 
@@ -40,7 +43,7 @@ All package versions are recorded in the "Packages.txt" file.
 
 To run the system, execute "Main.py".
 
-##### 2. Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition
+#### 2. Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition
 
 - Optimized Gabor-based lip feature extraction system (code is in "Optimized" folder)
 ![Optimized Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/optimization.png)
@@ -91,7 +94,7 @@ To run the system, execute "Main.py".
 
 To run the system, execute "Main.py".
 
-##### 3. 'FirstFrame' Gabor-based lip feature extraction system 
+#### 3. 'FirstFrame' Gabor-based lip feature extraction system 
 !['FirstFrame' Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/FirstFrame.png)
 
   1). Main.py. 
@@ -108,7 +111,7 @@ To run the system, execute "Main.py".
 
 To run the system, execute "Main.py".
 
-#### Citation
+### Citation
 If you find this code useful in your research, please consider to cite the following papers:
 ```
 @inproceedings{xu2020gabor,
@@ -129,5 +132,5 @@ If you find this code useful in your research, please consider to cite the follo
   organization={IEEE}
 }
 ```
-#### Contact
+### Contact
 yan.xu@xjtlu.edu.cn
