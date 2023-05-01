@@ -3,10 +3,12 @@ This repository provides the code for lip feature extraction systems described i
 
 #### Gabor features
 
-<div>
-  <video src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/bbae1a.mpg" width="45%" controls></video>
-  <video src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Area.mp4" width="45%" controls></video>
-</div>
+<video width="45%" controls>
+    <source src="https://github.com/YX536/Gabor-based-lipreading-system/raw/main/bbae1a.mpg" type="video/mp4">
+</video>
+<video width="45%" controls>
+    <source src="https://github.com/YX536/Gabor-based-lipreading-system/raw/main/Area.mp4" type="video/mp4">
+</video>
 
 #### Contents
 [toc]
@@ -22,7 +24,7 @@ All package versions are recorded in the "Packages.txt" file.
   1). Main.py. 
   ```python 
   #Change path. Please modify the path in the code to your local path.
-  ```12 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat") # path of "shape_predictor_68_face_landmarks.dat"
+  predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat") # path of "shape_predictor_68_face_landmarks.dat"
   VideoPath ='D:/Handcrafted/*.mpg'  # video path 
   Frame = 'D:/Handcrafted/Picture/'# path to store frames
   MouthPath = 'D:/Handcrafted/mouth/'  # path to store mouth region
