@@ -20,7 +20,7 @@ All package versions are recorded in the "Packages.txt" file.
 ![Handcrafted Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lip-feature-extraction-system/blob/main/Handcrafted.png)
 ------------
 1). Main.py. 
-```python 
+```python linenums=12
 #Change path. Please modify the path in the code to your local path.
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat") # path of "shape_predictor_68_face_landmarks.dat"
 VideoPath ='D:/Handcrafted/*.mpg'  # video path 
