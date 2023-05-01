@@ -139,5 +139,8 @@ If you find this code useful in your research, please consider to cite the follo
   organization={IEEE}
 }
 ```
+### License
+The source code for the site is licensed under the MIT license, which you can find in the [LICENSE.txt](https://github.com/YX536/Gabor-based-lipreading-system/edit/main/LICENSE.txt) file.
+
 ### Contact
 yan.xu@xjtlu.edu.cn
