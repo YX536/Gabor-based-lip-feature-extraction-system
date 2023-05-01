@@ -40,7 +40,7 @@ def rect1(detector,predictor,i,shotname,picturepath,MouthPath,GaborPath,SheetPat
 
      widthG = shape.part(64).x - shape.part(60).x
      heightG = shape.part(66).y - shape.part(62).y
-     cur_dir = cur_dir + '/'   # 保存路径
+     cur_dir = cur_dir + '/'   
      # print(path)
 
 
