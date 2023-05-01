@@ -2,7 +2,7 @@
 This repository provides the code for lip feature extraction systems described in [Gabor Based Lipreading with a New Audiovisual Mandarin Corpus](https://link.springer.com/chapter/10.1007/978-3-030-39431-8_16) and [Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition](https://eurasip.org/Proceedings/Eusipco/Eusipco2022/pdfs/0000603.pdf). We also offer an updated version of the lip feature extraction system: 'FirstFrame' Gabor-based lip feature extraction system.
 
 + [Gabor features](#gabor-features)
-+ [Environment:](#environment-)
++ [Environment](#environment-)
 + [Gabor-Based Lip feature extraction system](#gabor-based-lip-feature-extraction-system)
   - [1. Gabor Based Lipreading with a New Audiovisual Mandarin Corpus](#1-gabor-based-lipreading-with-a-new-audiovisual-mandarin-corpus)
   - [2. Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition](#2-gabor-based-audiovisual-fusion-for-mandarin-chinese-speech-recognition)
