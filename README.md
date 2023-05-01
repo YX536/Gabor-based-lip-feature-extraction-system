@@ -20,7 +20,7 @@ The left GIF displays the original video where the speaker says "bin blue at e o
    <img src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Area.png" width="300" />
 </div>
 
-### Environment:
+### Environment
 All package versions are recorded in the "Packages.txt" file.
 
 ### Gabor-Based Lip feature extraction system
