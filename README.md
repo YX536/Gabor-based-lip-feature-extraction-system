@@ -3,8 +3,8 @@ This repository provides the code for lip feature extraction systems described i
 
 ####Gabor features
 <div>
-  <video src="bbae1a.mpg" width="45%" controls></video>
-  <video src="Area.mp4" width="45%" controls></video>
+  <video src="https://github.com/YX536/Gabor-based-lip-feature-extraction-system/blob/main/bbae1a.mpg" width="45%" controls></video>
+  <video src="https://github.com/YX536/Gabor-based-lip-feature-extraction-system/blob/main/Area.mp4" width="45%" controls></video>
 </div>
 
 **Contents**
@@ -54,7 +54,7 @@ To run the system, execute "Main.py".
 4). TPE.py. Find the most suitable Gabor parameters and iterating them for all frames. 
 ```python
     #You can change the path of test Gabor path to your local path.
-	Gabor_Path = './TPEH.jpg'
+    Gabor_Path = './TPEH.jpg'
 ```
 
 ```python
