@@ -92,8 +92,7 @@ To run the system, execute "Main.py".
 
 ------------
 To run the system, execute "Main.py".
-
-First
+#First
 ##### 3. 'FirstFrame' Gabor-based lip feature extraction system 
 !['FirstFrame' Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lip-feature-extraction-system/blob/main/FirstFrame.png)
 
