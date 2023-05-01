@@ -8,6 +8,7 @@ This repository provides the code for lip feature extraction systems described i
   - [2. Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition](#2-gabor-based-audiovisual-fusion-for-mandarin-chinese-speech-recognition)
   - [3. 'FirstFrame' Gabor-based lip feature extraction system](#3-firstframe-gabor-based-lip-feature-extraction-system)
 + [Citation](#citation)
++ [License](#license)
 + [Contact](#contact)
 
 ### Gabor features
@@ -140,7 +141,7 @@ If you find this code useful in your research, please consider to cite the follo
 }
 ```
 ### License
-The source code for the site is licensed under the MIT license, which you can find in the [LICENSE.txt](https://github.com/YX536/Gabor-based-lipreading-system/edit/main/LICENSE.txt) file.
+The source code for the site is licensed under the MIT license, which you can find in the [LICENSE.txt](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/LICENSE) file.
 
 ### Contact
 yan.xu@xjtlu.edu.cn
