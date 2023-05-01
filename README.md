@@ -1,3 +1,6 @@
+#### Contents
+[toc]
+
 # Gabor-based lipreading systems
 This repository provides the code for lip feature extraction systems described in [Gabor Based Lipreading with a New Audiovisual Mandarin Corpus](https://link.springer.com/chapter/10.1007/978-3-030-39431-8_16) and [Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition](https://eurasip.org/Proceedings/Eusipco/Eusipco2022/pdfs/0000603.pdf). We also offer an updated version of the lip feature extraction system: 'FirstFrame' Gabor-based lip feature extraction system.
 
@@ -9,9 +12,6 @@ This repository provides the code for lip feature extraction systems described i
 <video width="45%" controls>
     <source src="https://github.com/YX536/Gabor-based-lipreading-system/raw/main/Area.mp4" type="video/mp4">
 </video>
-
-#### Contents
-[toc]
 
 #### Environment:
 All package versions are recorded in the "Packages.txt" file.
@@ -56,7 +56,7 @@ To run the system, execute "Main.py".
   4). TPE.py. Find the most suitable Gabor parameters and iterating them for all frames. 
   ```python
       #You can change the path of test Gabor path to your local path.
-      Gabor_Path = './TPEH.jpg'
+  76  Gabor_Path = './TPEH.jpg'
   ```
 
   ```python
