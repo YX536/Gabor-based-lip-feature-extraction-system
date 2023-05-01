@@ -11,8 +11,6 @@ This repository provides the code for lip feature extraction systems described i
     + [Citation](#citation)
     + [Contact](#contact)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 ### Gabor features
 <div style="display:flex;justify-content:space-between;">
     <img src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/bbae1a.gif" width="300" />
