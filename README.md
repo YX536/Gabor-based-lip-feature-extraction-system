@@ -4,12 +4,12 @@ This repository provides the code for lip feature extraction systems described i
 #### Gabor features
 
 <div>
-  <video src="https://github.com/YX536/Gabor-based-lip-feature-extraction-system/blob/main/bbae1a.mpg" width="45%" controls></video>
-  <video src="https://github.com/YX536/Gabor-based-lip-feature-extraction-system/blob/main/Area.mp4" width="45%" controls></video>
+  <video src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/bbae1a.mpg" width="45%" controls></video>
+  <video src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Area.mp4" width="45%" controls></video>
 </div>
 
 #### Contents
-[TOC]
+[toc]
 
 #### Environment:
 All package versions are recorded in the "Packages.txt" file.
@@ -17,12 +17,12 @@ All package versions are recorded in the "Packages.txt" file.
 #### Gabor-Based Lip feature extraction system
 ##### 1. Gabor Based Lipreading with a New Audiovisual Mandarin Corpus
 - Handcrafted Gabor-based lip feature extraction system
-![Handcrafted Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lip-feature-extraction-system/blob/main/Handcrafted.png)
+![Handcrafted Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Handcrafted.png)
 
   1). Main.py. 
-  ```python linenums=12
+  ```python 
   #Change path. Please modify the path in the code to your local path.
-  predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat") # path of "shape_predictor_68_face_landmarks.dat"
+  ```12 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat") # path of "shape_predictor_68_face_landmarks.dat"
   VideoPath ='D:/Handcrafted/*.mpg'  # video path 
   Frame = 'D:/Handcrafted/Picture/'# path to store frames
   MouthPath = 'D:/Handcrafted/mouth/'  # path to store mouth region
@@ -92,7 +92,7 @@ To run the system, execute "Main.py".
 To run the system, execute "Main.py".
 
 ##### 3. 'FirstFrame' Gabor-based lip feature extraction system 
-!['FirstFrame' Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lip-feature-extraction-system/blob/main/FirstFrame.png)
+!['FirstFrame' Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/FirstFrame.png)
 
   1). Main.py. 
 
