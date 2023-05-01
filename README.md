@@ -11,17 +11,7 @@ This repository provides the code for lip feature extraction systems described i
 + [Contact](#contact)
 
 ### Gabor features
-
-<div style="display:flex; justify-content: center;">
-  <div style="flex:50%; margin-right: 10px;">
-    <img src="[gif1.gif](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/bbae1a.gif)" alt="gif1" style="width:100%">
-    <p style="text-align:center; color:grey; border:1px solid grey;">Original video. Speaker says "bin blue at e one again"</p>
-  </div>
-  <div style="flex:50%; margin-left: 10px;">
-    <img src="[gif2.gif](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Area.gif)" alt="gif2" style="width:100%">
-    <p style="text-align:center; color:grey; border:1px solid grey;">Lip area changes when speaker says "bin blue at e one again"</p>
-  </div>
-</div>
+Letf gif shows original video. Speaker says "bin blue at e one again". Middle gif shows Gabor features of lip area changes when speaker says "bin blue at e one again". Right image shows the curve of lip area changes when speaker says "bin blue at e one again".
 
 <div style="display:flex;justify-content:space-between;">
     <img src="https://github.com/YX536/Gabor-based-lipreading-system/blob/main/bbae1a.gif" width="300" />
